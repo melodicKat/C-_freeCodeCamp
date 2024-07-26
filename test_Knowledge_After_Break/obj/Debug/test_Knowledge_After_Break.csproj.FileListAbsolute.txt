@@ -1,0 +1,7 @@
+D:\source_Code\C#\hocCfreecodecamp\test_Knowledge_After_Break\obj\Debug\test_Knowledge_After_Break.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\test_Knowledge_After_Break\obj\Debug\test_Knowledge_After_Break.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\test_Knowledge_After_Break\bin\Debug\test_Knowledge_After_Break.exe.config
+D:\source_Code\C#\hocCfreecodecamp\test_Knowledge_After_Break\bin\Debug\test_Knowledge_After_Break.exe
+D:\source_Code\C#\hocCfreecodecamp\test_Knowledge_After_Break\bin\Debug\test_Knowledge_After_Break.pdb
+D:\source_Code\C#\hocCfreecodecamp\test_Knowledge_After_Break\obj\Debug\test_Knowledge_After_Break.exe
+D:\source_Code\C#\hocCfreecodecamp\test_Knowledge_After_Break\obj\Debug\test_Knowledge_After_Break.pdb

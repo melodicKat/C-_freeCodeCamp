@@ -1,0 +1,7 @@
+D:\source_Code\C#\hocCfreecodecamp\tryParse\bin\Debug\tryParse.exe.config
+D:\source_Code\C#\hocCfreecodecamp\tryParse\bin\Debug\tryParse.exe
+D:\source_Code\C#\hocCfreecodecamp\tryParse\bin\Debug\tryParse.pdb
+D:\source_Code\C#\hocCfreecodecamp\tryParse\obj\Debug\tryParse.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\tryParse\obj\Debug\tryParse.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\tryParse\obj\Debug\tryParse.exe
+D:\source_Code\C#\hocCfreecodecamp\tryParse\obj\Debug\tryParse.pdb

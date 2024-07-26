@@ -1,0 +1,7 @@
+D:\source_Code\C#\hocCfreecodecamp\ex_timeTable\bin\Debug\ex_timeTable.exe.config
+D:\source_Code\C#\hocCfreecodecamp\ex_timeTable\bin\Debug\ex_timeTable.exe
+D:\source_Code\C#\hocCfreecodecamp\ex_timeTable\bin\Debug\ex_timeTable.pdb
+D:\source_Code\C#\hocCfreecodecamp\ex_timeTable\obj\Debug\ex_timeTable.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\ex_timeTable\obj\Debug\ex_timeTable.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\ex_timeTable\obj\Debug\ex_timeTable.exe
+D:\source_Code\C#\hocCfreecodecamp\ex_timeTable\obj\Debug\ex_timeTable.pdb

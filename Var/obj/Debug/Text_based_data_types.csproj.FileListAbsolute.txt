@@ -1,0 +1,14 @@
+D:\source_Code\C#\hocCfreecodecamp\Text_based_data_types\bin\Debug\Text_based_data_types.exe.config
+D:\source_Code\C#\hocCfreecodecamp\Text_based_data_types\bin\Debug\Text_based_data_types.exe
+D:\source_Code\C#\hocCfreecodecamp\Text_based_data_types\bin\Debug\Text_based_data_types.pdb
+D:\source_Code\C#\hocCfreecodecamp\Text_based_data_types\obj\Debug\Text_based_data_types.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\Text_based_data_types\obj\Debug\Text_based_data_types.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\Text_based_data_types\obj\Debug\Text_based_data_types.exe
+D:\source_Code\C#\hocCfreecodecamp\Text_based_data_types\obj\Debug\Text_based_data_types.pdb
+D:\source_Code\C#\hocCfreecodecamp\Var\obj\Debug\Text_based_data_types.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\Var\obj\Debug\Text_based_data_types.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\Var\obj\Debug\Text_based_data_types.exe
+D:\source_Code\C#\hocCfreecodecamp\Var\obj\Debug\Text_based_data_types.pdb
+D:\source_Code\C#\hocCfreecodecamp\Var\bin\Debug\Text_based_data_types.exe.config
+D:\source_Code\C#\hocCfreecodecamp\Var\bin\Debug\Text_based_data_types.exe
+D:\source_Code\C#\hocCfreecodecamp\Var\bin\Debug\Text_based_data_types.pdb

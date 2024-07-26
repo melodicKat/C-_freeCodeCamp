@@ -1,0 +1,7 @@
+D:\source_Code\C#\hocCfreecodecamp\learnCSharp\bin\Debug\learnCSharp.exe.config
+D:\source_Code\C#\hocCfreecodecamp\learnCSharp\bin\Debug\learnCSharp.exe
+D:\source_Code\C#\hocCfreecodecamp\learnCSharp\bin\Debug\learnCSharp.pdb
+D:\source_Code\C#\hocCfreecodecamp\learnCSharp\obj\Debug\learnCSharp.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\learnCSharp\obj\Debug\learnCSharp.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\learnCSharp\obj\Debug\learnCSharp.exe
+D:\source_Code\C#\hocCfreecodecamp\learnCSharp\obj\Debug\learnCSharp.pdb

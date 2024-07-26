@@ -1,0 +1,7 @@
+D:\source_Code\C#\hocCfreecodecamp\converting_String_to_number\bin\Debug\converting_String_to_number.exe.config
+D:\source_Code\C#\hocCfreecodecamp\converting_String_to_number\bin\Debug\converting_String_to_number.exe
+D:\source_Code\C#\hocCfreecodecamp\converting_String_to_number\bin\Debug\converting_String_to_number.pdb
+D:\source_Code\C#\hocCfreecodecamp\converting_String_to_number\obj\Debug\converting_String_to_number.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\converting_String_to_number\obj\Debug\converting_String_to_number.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\converting_String_to_number\obj\Debug\converting_String_to_number.exe
+D:\source_Code\C#\hocCfreecodecamp\converting_String_to_number\obj\Debug\converting_String_to_number.pdb

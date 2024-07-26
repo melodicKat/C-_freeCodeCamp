@@ -1,0 +1,7 @@
+D:\source_Code\C#\hocCfreecodecamp\stringFormat\bin\Debug\stringFormat.exe.config
+D:\source_Code\C#\hocCfreecodecamp\stringFormat\bin\Debug\stringFormat.exe
+D:\source_Code\C#\hocCfreecodecamp\stringFormat\bin\Debug\stringFormat.pdb
+D:\source_Code\C#\hocCfreecodecamp\stringFormat\obj\Debug\stringFormat.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\stringFormat\obj\Debug\stringFormat.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\stringFormat\obj\Debug\stringFormat.exe
+D:\source_Code\C#\hocCfreecodecamp\stringFormat\obj\Debug\stringFormat.pdb
