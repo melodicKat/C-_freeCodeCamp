@@ -1,0 +1,7 @@
+D:\source_Code\C#\hocCfreecodecamp\stringReverse\bin\Debug\stringReverse.exe.config
+D:\source_Code\C#\hocCfreecodecamp\stringReverse\bin\Debug\stringReverse.exe
+D:\source_Code\C#\hocCfreecodecamp\stringReverse\bin\Debug\stringReverse.pdb
+D:\source_Code\C#\hocCfreecodecamp\stringReverse\obj\Debug\stringReverse.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\stringReverse\obj\Debug\stringReverse.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\stringReverse\obj\Debug\stringReverse.exe
+D:\source_Code\C#\hocCfreecodecamp\stringReverse\obj\Debug\stringReverse.pdb

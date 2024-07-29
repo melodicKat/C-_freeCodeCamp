@@ -1,0 +1,7 @@
+D:\source_Code\C#\hocCfreecodecamp\ACSII\bin\Debug\ACSII.exe.config
+D:\source_Code\C#\hocCfreecodecamp\ACSII\bin\Debug\ACSII.exe
+D:\source_Code\C#\hocCfreecodecamp\ACSII\bin\Debug\ACSII.pdb
+D:\source_Code\C#\hocCfreecodecamp\ACSII\obj\Debug\ACSII.csproj.AssemblyReference.cache
+D:\source_Code\C#\hocCfreecodecamp\ACSII\obj\Debug\ACSII.csproj.CoreCompileInputs.cache
+D:\source_Code\C#\hocCfreecodecamp\ACSII\obj\Debug\ACSII.exe
+D:\source_Code\C#\hocCfreecodecamp\ACSII\obj\Debug\ACSII.pdb
