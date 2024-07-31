@@ -1,25 +1,24 @@
 ﻿using System;
-using System.Security.Principal;
-
-namespace @array
+namespace @arr
 {
     internal class Program
     {
-        static void Main(string[]args)
+        static void Main(string[] args)
         {
-            int[] arr = new int[3];
-
-            
-
-            for(int i = 0; i < arr.Length; ++i)
+            int count = Convert.ToInt32(Console.ReadLine());
+            int[] arr = new int[count];
+            for (int i = 0; i < arr.Length; ++i)
             {
+                Console.Write("arr{0} = ", i + 1);
                 int.TryParse(Console.ReadLine(), out arr[i]);
             }
-            for(int i = 0; i < arr.Length; ++i)
+            int sum = 0;
+            foreach(int arrIndex in arr)
             {
-                Console.WriteLine(arr[i]);
-                System.Threading.Thread.Sleep(100);
+                sum += arrIndex;
             }
+
+            Console.WriteLine(sum + (sum < 120 ? "valid" : "invalid"));
             Console.ReadLine();
         }
     }
