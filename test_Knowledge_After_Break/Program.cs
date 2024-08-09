@@ -1,91 +1,172 @@
 ﻿using System;
-using System.Runtime.InteropServices;
+using System.CodeDom;
+using System.Data;
 
-namespace testKn
+namespace baitpapTest
 {
-    class Program
-    { 
-        // module for byte input
-        static byte numIntPut()
+
+    interface hoTro
+    {
+         decimal soTienHoTro();
+    }
+    abstract internal class HopDongCaSi
+    {
+        protected string maHopDong;
+        protected string tenCaSi;
+        protected int soTietMucBieuDien;
+        protected string ngayBieuDien;
+        protected decimal donGia;
+        protected decimal phuPhi;
+        public string MaHopDong
         {
-            byte num;
-            bool checkChoice = false;
-            do
+            set
             {
-                Console.Write("Enter the value: ");
-                checkChoice = byte.TryParse(Console.ReadLine(), out num);
-                if (!checkChoice)
+                maHopDong = value;
+                bool checkTrue = true;
+                foreach (char temp in value.Substring(2, 3))
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("Your input is not availble, please reenter!");
-                }
-            } while (!checkChoice);
-            return num;
-        }
-
-        //print time table for separate number.
-        static void timeTable_separate(byte num)
-        {
-            for (int i = 0; i < 11; ++i)
-            {
-                Console.WriteLine("{0} * {1} = {2}", num, i, num * i);
-            }
-        }
-
-        //print the time table from 1 - 10
-        static void timeTable_1_10()
-        {
-            for (byte i = 1; i < 11; ++i)
-            {
-                Console.WriteLine("Time table {0}: ", i);
-                timeTable_separate(i);
-            }
-        }
-        static void Choice(byte choice)
-        {
-
-            do
-            {
-                Console.Write("Your choice | ");
-                choice = numIntPut();
-                switch (choice)
-                {
-                    case 0:
-                        Console.WriteLine("End the program!");
-                        break;
-                    case 1:
-                        Console.WriteLine();
-                        Console.WriteLine("Print the time table.");
-                        byte timeTableIndex = numIntPut();
-                        timeTable_separate(timeTableIndex);
-                        break;
-                    case 2:
-                        Console.WriteLine();
-                        Console.WriteLine("Print the time table from 1 to 10.");
-                        timeTable_1_10();
-                        break;
-                    case 3:
-                        Console.WriteLine();
-                        Console.WriteLine("Passwork checker.");
-                        break;
-                    default:
-                        Console.WriteLine("Invalid choice!");
-                        break;
+                    if (!char.IsDigit(temp))
+                        checkTrue = false;
                 }
 
+                if (!(value.Length == 6) || !(value.StartsWith("HD") && checkTrue))
+                {
+                    throw new Exception("Loi");
+                }
             }
-            while (choice != 0);
+                  
+            get => maHopDong; 
+        }
+        public string TenCaSi { set => tenCaSi = value; get => tenCaSi; }
+        public int SoTietMucBieuDien { get => soTietMucBieuDien; set => soTietMucBieuDien = value; }
+        public string NgayBieuDien { get => ngayBieuDien; set => ngayBieuDien = value; }
+        public decimal DonGia { get => donGia; set => donGia = value; }
+        public decimal PhuPhi { get => phuPhi; set => phuPhi = value; }
 
+        //constructor
+
+        // 3
+        
+        public HopDongCaSi()
+        {
+            this.maHopDong = "HD3418";
+            this.tenCaSi = "Ly Khong Hay";
+            this.soTietMucBieuDien = 3;
+            this.ngayBieuDien = "24/10/2020";
+            this.donGia = 4000000M;
+            this.phuPhi = 2000000M;
         }
 
+        //4
+
+        public HopDongCaSi(string maHopDong, string tenCaSi, decimal donGia)
+
+        {
+            this.maHopDong = maHopDong;
+            this.tenCaSi = tenCaSi;
+            soTietMucBieuDien = 2;
+            ngayBieuDien = "24/12/2020";
+            this.donGia = donGia;
+            phuPhi = 0M;
+        }
+        abstract public decimal quangCao();
+        virtual public decimal thanhTien()
+        {
+            return donGia * soTietMucBieuDien + phuPhi + quangCao();
+        }
+
+        virtual public decimal thue()
+        {
+            return 0.15M * thanhTien();
+        }
+
+    }
+
+
+    #region hopDongBieuDien_taiNHa
+    /// <summary>
+    /// inherited by abstract class hopDongCaSi and hoTro interface
+    /// </summary>
+    internal class BieuDienTaiNha : HopDongCaSi
+    {
+        private decimal khoangCach;
+        public decimal KhoangCach { get => khoangCach; set => khoangCach = value; }
+        override public decimal quangCao()
+        {
+            if (khoangCach < 20)
+                return  (decimal)(400000M * khoangCach);
+            else if ((khoangCach * 300000) < 15000000)
+                return (300000M* khoangCach);
+            return 15000000M;
+
+        }
+    }
+    #endregion
+
+    #region hopDongBieuDien_taiRapNho
+    internal class BieuDienTaiRapNho : HopDongCaSi, hoTro
+    {
+        private int quiMo;
+
+        public int QuiMo
+        {
+            get => quiMo;
+            set => quiMo = value;
+        }
+        override public decimal quangCao()
+        {
+            return 10000000M + 2000000M * soTietMucBieuDien; 
+        }
+
+        public decimal soTienHoTro()
+        {
+            if( 1 <= quiMo || quiMo <= 3)
+            {
+                return 1000000;
+            }
+            return 0;
+        }
+        public override decimal thanhTien()
+        {
+            return base.thanhTien() - soTienHoTro();
+        }
+    }
+    #endregion
+    internal class BieuDienTaiRapLon: HopDongCaSi, hoTro
+    {
+        private decimal khanGia;
+
+        public decimal KhanGia { get => khanGia; set => khanGia = value; }
+
+        override public decimal quangCao()
+        {
+            if (KhanGia < 1000000)
+                return 30000000M;
+            return 50000000M;
+        }
+
+        public decimal soTienHoTro()
+        {
+            if (KhanGia < 2000000)
+                return ((int)KhanGia % 100000) * 1000000M;
+            return 20000000;
+        }
+        public override decimal thanhTien()
+        {
+            return base.thanhTien() - soTienHoTro();
+        }
+
+    }
+
+
+    internal class Program
+    {
         static void Main(string[] args)
         {
-            byte choice = 0;
-            Choice(choice);
+            HopDongCaSi a = new BieuDienTaiNha();
+            
 
-            Console.WriteLine(a);
             Console.ReadKey();
         }
     }
 }
-
